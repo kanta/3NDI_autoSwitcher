@@ -295,7 +295,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-29",
-					"items" : [ "DESKTOP-RAUSH43 (Remote Connection 1)", ",", "DESKTOP-RAUSH43 (soloOut)" ],
+					"items" : [ "DESKTOP-D9RBKRO (Test Pattern)", ",", "DESKTOP-D9RBKRO (Remote Connection 1)", ",", "FINALBYNOMACBOOK-AIR.LOCAL (NDI Virtual Input)", ",", "FINALBYNOMACBOOK-AIR.LOCAL (mixOut)", ",", "KANTA6S (NDI HX Camera)", ",", "M1-MAC-MINI.LOCAL (soloOut)" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -338,18 +338,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 179.0, 341.0, 226.0, 23.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 341.0, 147.0, 23.0 ],
-					"text" : "jit.ndi.send~ soloOut"
 				}
 
 			}
@@ -845,13 +833,6 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 1 ],
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-11", 0 ]
 				}
@@ -908,14 +889,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"order" : 2,
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"order" : 1,
 					"source" : [ "obj-2", 0 ]
@@ -948,13 +921,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-23", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"source" : [ "obj-24", 0 ]
 				}
 
 			}
@@ -1173,10 +1139,6 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "jit.ndi.receive~.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "jit.ndi.send~.mxe64",
 				"type" : "mx64"
 			}
  ],
